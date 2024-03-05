@@ -1,0 +1,19 @@
+h1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+font-weight: 500;
+color: crimson;
+}
+
+
+footer{
+background-color: rgba(0, 255, 255, 0.514);
+
+}
+
+header{
+    background-color: rgba(0, 255, 255, 0.514);
+}
+body{
+    background-color: rgba(0, 255, 255, 0.514);
+}
