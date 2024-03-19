@@ -2,7 +2,7 @@ h1{
 font-family: Arial, Helvetica, sans-serif;
 font-size: large;
 font-weight: 500;
-color: crimson;
+color: rgb(189, 31, 31);
 }
 
 
@@ -24,22 +24,23 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-    color: #ff0846; /* Hier kannst du die gewünschte Farbe angeben, z.B. Rot */
+    color: #ff0808; /* Hier kannst du die gewünschte Farbe angeben, z.B. Rot */
 }
 
 a {
     text-decoration: none;
 }
- 
+ /*Der folgende Style wirkt auf eine class namens flex-container*/
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;
-  }
-  
+    background-color: rgba(255, 184, 30, 0.486);
+ 
+}
+  /*Der folgende Style wirkt auf alle DIVs innerhalb eines flex-containers*/
   .flex-container > div {
-    background-color: #f1f1f1;
-    width: 100px;
+    background-color: #fcd601;
+    width: 700px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
